@@ -382,7 +382,7 @@ method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." name="_replyto" >
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
@@ -396,7 +396,7 @@ method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." name="message"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -666,8 +666,8 @@ method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+ // <script src="js/jqBootstrapValidation.js"></script>
+ // <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>

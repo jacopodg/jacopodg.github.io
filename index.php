@@ -35,7 +35,7 @@ return true;
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Jacopo Di Girolamo - Web Developer</title>
+  <title>Jacopo Di Girolamo s- Web Developer</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
